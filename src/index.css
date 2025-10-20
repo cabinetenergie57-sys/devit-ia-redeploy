@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer utilities {
+  .gradient-bg {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .btn-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    @apply text-white font-semibold py-3 px-6 rounded-full transition-all duration-300 hover:shadow-xl hover:scale-105;
+  }
+
+  .btn-blue-pink {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    @apply text-white font-semibold py-3 px-6 rounded-full transition-all duration-300 hover:shadow-xl hover:scale-105;
+  }
+
+  .card-elegant {
+    @apply bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-6 border border-gray-100;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+}
