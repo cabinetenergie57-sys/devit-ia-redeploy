@@ -64,7 +64,7 @@ export default function ContactSection({ onLinaClick }: ContactSectionProps) {
     {
       icon: MapPin,
       title: 'Adresse',
-      content: 'Technopark Casablanca, Maroc',
+      content: '58 rue Monceau, 75008 Paris',
     },
     {
       icon: Mail,
@@ -74,7 +74,7 @@ export default function ContactSection({ onLinaClick }: ContactSectionProps) {
     {
       icon: Phone,
       title: 'Téléphone',
-      content: '+212 5 22 XX XX XX',
+      content: '+33 7 63 26 26 09',
     },
   ];
 

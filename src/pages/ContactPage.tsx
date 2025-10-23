@@ -15,17 +15,17 @@ export default function ContactPage({ onLinaClick }: ContactPageProps) {
     {
       icon: Phone,
       title: 'Téléphone',
-      details: ['+33 1 23 45 67 89', '+212 5 22 XX XX XX'],
+      details: ['+33 7 63 26 26 09'],
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['contact@devitia.fr', 'lina@devitia.fr'],
+      details: ['contact@devitia.ma', 'lina@devitia.ma'],
     },
     {
       icon: MapPin,
-      title: 'Bureaux',
-      details: ['Paris, France', 'Casablanca, Maroc'],
+      title: 'Adresse',
+      details: ['58 rue Monceau', '75008 Paris'],
     },
     {
       icon: Clock,
