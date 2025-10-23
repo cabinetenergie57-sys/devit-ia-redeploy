@@ -9,6 +9,7 @@ import SolutionsPage from './pages/SolutionsPage';
 import AdvantagesPage from './pages/AdvantagesPage';
 import ContactPage from './pages/ContactPage';
 import MethodPage from './pages/MethodPage';
+import EstimationPage from './pages/EstimationPage';
 
 function App() {
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -41,6 +42,7 @@ function App() {
           <Route path="/avantages" element={<AdvantagesPage onLinaClick={handleLinaClick} />} />
           <Route path="/methode" element={<MethodPage onLinaClick={handleLinaClick} />} />
           <Route path="/apropos" element={<AboutPage onLinaClick={handleLinaClick} />} />
+          <Route path="/estimation" element={<EstimationPage />} />
           <Route path="/contact" element={<ContactPage onLinaClick={handleLinaClick} />} />
         </Routes>
         <Footer onLinaClick={handleLinaClick} />
