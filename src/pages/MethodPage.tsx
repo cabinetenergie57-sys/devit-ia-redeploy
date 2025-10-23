@@ -63,9 +63,9 @@ export default function MethodPage({ onLinaClick }: MethodPageProps) {
         </div>
       </div>
 
-      <section className="py-12 bg-white">
+      <section className="py-8 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-10">
+          <div className="text-center mb-6">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Pourquoi DevConnect™ est une{' '}
               <span className="gradient-text">méthode exclusive</span>
@@ -85,14 +85,14 @@ export default function MethodPage({ onLinaClick }: MethodPageProps) {
             </div>
           </div>
 
-          <div className="text-center mb-10">
+          <div className="text-center mb-6">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Les 4 piliers de la{' '}
               <span className="gradient-text">méthode DevConnect™</span>
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6 mb-10">
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
             {pillars.map((pillar, index) => (
               <div key={index} className="card-elegant group hover:scale-105">
                 <div className="flex items-start gap-4 mb-4">

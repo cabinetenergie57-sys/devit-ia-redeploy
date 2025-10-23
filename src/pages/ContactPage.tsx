@@ -37,7 +37,7 @@ export default function ContactPage({ onLinaClick }: ContactPageProps) {
   return (
     <>
       <div className="pt-20">
-        <div className="bg-gradient-to-br from-blue-50 to-white py-16">
+        <div className="bg-gradient-to-br from-blue-50 to-white py-12">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Contactez <span className="gradient-text">Devit.IA</span>
@@ -51,7 +51,7 @@ export default function ContactPage({ onLinaClick }: ContactPageProps) {
 
       <section className="section-padding bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-6 mb-16">
+          <div className="grid md:grid-cols-4 gap-6 mb-8">
             {contactInfo.map((info, index) => (
               <div key={index} className="card-elegant text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full gradient-bg mb-4">

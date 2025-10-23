@@ -23,7 +23,7 @@ export default function SolutionsPage({ onLinaClick }: SolutionsPageProps) {
   return (
     <>
       <div className="pt-20">
-        <div className="bg-gradient-to-br from-blue-50 to-white py-16">
+        <div className="bg-gradient-to-br from-blue-50 to-white py-12">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               Nos <span className="gradient-text">Solutions</span>

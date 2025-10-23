@@ -12,7 +12,7 @@ export default function AboutPage({ onLinaClick }: AboutPageProps) {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="relative text-white py-16 md:py-20 overflow-hidden">
+      <section className="relative text-white py-12 md:py-16 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
@@ -51,7 +51,7 @@ export default function AboutPage({ onLinaClick }: AboutPageProps) {
       </section>
 
       {/* Mission Section */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-8 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -79,17 +79,17 @@ export default function AboutPage({ onLinaClick }: AboutPageProps) {
       </section>
 
       {/* DevConnect™ Purpose Section */}
-      <section id="devconnect" className="py-12 bg-white">
+      <section id="devconnect" className="py-8 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
               La méthode DevConnect™ répond à quoi ?
             </h2>
-            <p className="text-xl text-gray-600 mb-12 text-center">
+            <p className="text-xl text-gray-600 mb-8 text-center">
               DevConnect™ est née d'un constat : les entreprises ont besoin de talents techniques fiables, sans processus long, coûteux ou risqué. Elle répond à trois enjeux clés :
             </p>
 
-            <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-white border border-blue-100">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-600 text-white mb-4">
                   <Target size={32} />
@@ -134,9 +134,9 @@ export default function AboutPage({ onLinaClick }: AboutPageProps) {
       </section>
 
       {/* 4 Pillars Section */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-8 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center">
             Les 4 piliers de DevConnect™
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -188,10 +188,10 @@ export default function AboutPage({ onLinaClick }: AboutPageProps) {
       </section>
 
       {/* DevConnect™ Exclusive Method Section */}
-      <section className="py-12 bg-white">
+      <section className="py-8 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-12">
+            <div className="text-center mb-8">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
                 Notre méthode exclusive : <span className="gradient-text">DevConnect™</span>
               </h2>
@@ -238,7 +238,7 @@ export default function AboutPage({ onLinaClick }: AboutPageProps) {
               </div>
             </div>
 
-            <div className="mt-12 text-center bg-gradient-to-r from-blue-600 to-pink-600 rounded-2xl p-8 text-white">
+            <div className="mt-8 text-center bg-gradient-to-r from-blue-600 to-pink-600 rounded-2xl p-8 text-white">
               <p className="text-xl font-semibold leading-relaxed">
                 DevConnect™ est plus qu'une méthode : c'est notre signature. Elle symbolise la différence entre une simple externalisation et une stratégie d'excellence technologique francophone.
               </p>
@@ -248,9 +248,9 @@ export default function AboutPage({ onLinaClick }: AboutPageProps) {
       </section>
 
       {/* Stats Section */}
-      <section className="py-12 bg-gradient-to-r from-blue-600 to-pink-600 text-white">
+      <section className="py-8 bg-gradient-to-r from-blue-600 to-pink-600 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
             Chiffres clés
           </h2>
           <div className="grid md:grid-cols-4 gap-8">
@@ -275,7 +275,7 @@ export default function AboutPage({ onLinaClick }: AboutPageProps) {
       </section>
 
       {/* Our Difference Section */}
-      <section className="py-12 bg-white">
+      <section className="py-8 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -313,12 +313,12 @@ export default function AboutPage({ onLinaClick }: AboutPageProps) {
       </section>
 
       {/* Team Section */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-8 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
             Une équipe humaine avant tout
           </h2>
-          <p className="text-xl text-gray-600 mb-12 text-center max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 mb-8 text-center max-w-3xl mx-auto">
             Devit.IA est née d'une double expertise : gestion de projet et recrutement côté business, ingénierie et développement côté technique. Notre conviction : la technologie doit servir une collaboration de confiance.
           </p>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -349,7 +349,7 @@ export default function AboutPage({ onLinaClick }: AboutPageProps) {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-12 bg-white">
+      <section className="py-8 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center bg-gradient-to-br from-gray-50 to-white rounded-2xl p-12 border border-gray-200 shadow-xl">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
