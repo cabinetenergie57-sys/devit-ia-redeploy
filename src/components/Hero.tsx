@@ -25,8 +25,7 @@ export default function Hero({ onLinaClick }: HeroProps) {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Performez votre équipe <span className="gradient-text">Data & IT</span> avec
-              l'expertise Devit.IA au Maroc
+              La nouvelle génération du nearshore francophone
             </h1>
 
             <p className="text-xl text-gray-600 leading-relaxed">
