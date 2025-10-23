@@ -96,7 +96,7 @@ export default function Footer({ onLinaClick }: FooterProps) {
             <ul className="space-y-3">
               <li className="flex items-start space-x-2">
                 <MapPin size={18} className="flex-shrink-0 mt-1 text-gray-400" />
-                <span className="text-gray-400">Technopark Casablanca, Maroc</span>
+                <span className="text-gray-400">58 rue Monceau, 75008 Paris</span>
               </li>
               <li className="flex items-start space-x-2">
                 <Mail size={18} className="flex-shrink-0 mt-1 text-gray-400" />
@@ -109,7 +109,12 @@ export default function Footer({ onLinaClick }: FooterProps) {
               </li>
               <li className="flex items-start space-x-2">
                 <Phone size={18} className="flex-shrink-0 mt-1 text-gray-400" />
-                <span className="text-gray-400">+212 5 22 XX XX XX</span>
+                <a
+                  href="tel:+33763262609"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  +33 7 63 26 26 09
+                </a>
               </li>
             </ul>
           </div>
