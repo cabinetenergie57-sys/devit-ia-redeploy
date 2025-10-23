@@ -29,8 +29,7 @@ export default function Hero({ onLinaClick }: HeroProps) {
             </h1>
 
             <p className="text-xl text-gray-600 leading-relaxed">
-              Externalisez vos projets : rapide, transparent et sécurisé, accompagné par
-              l'assistante IA Lina
+              Devit.IA associe expertise humaine et intelligence artificielle pour offrir aux entreprises francophones un modèle d'externalisation plus fluide, plus rapide et plus intelligent.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
